@@ -28,3 +28,4 @@
 /Users/victorpena/repos/BooksGallery/obj/Debug/net8.0/BooksGallery.pdb
 /Users/victorpena/repos/BooksGallery/obj/Debug/net8.0/BooksGallery.genruntimeconfig.cache
 /Users/victorpena/repos/BooksGallery/obj/Debug/net8.0/ref/BooksGallery.dll
+/Users/victorpena/repos/BooksGallery/obj/Debug/net8.0/BooksGallery.sourcelink.json
