@@ -1,15 +1,7 @@
 @{
-    Layout = null;
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "Book Detail";
 }
-
-<!DOCTYPE html>
-
-<html>
-<head>
-    <title>title</title>
-</head>
-<body>
-<div>
     <h1>@ViewBag.SeriesTitle</h1>
     <h2>Issue #@ViewBag.IssueNumber</h2>
 
@@ -20,13 +12,10 @@
     <h5>Artists:</h5>
     <div>
         <ul>
-            @foreach(var artist in ViewBag.Artists)
+            @foreach (var artist  in ViewBag.Artists)
         {
-            <li>ViewBag.Artist</li>
+            <li>@artist</li>
         }
         </ul>
     </div>
     }
-</div>
-</body>
-</html>
